@@ -6,11 +6,11 @@
 /*   By: rida-cos <rida-cos@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/19 15:47:54 by rida-cos          #+#    #+#             */
-/*   Updated: 2025/07/19 16:06:01 by rida-cos         ###   ########.fr       */
+/*   Updated: 2025/07/20 18:26:23 by rida-cos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 char	*strnstr(const char *big, const char *little, size_t len)
 {

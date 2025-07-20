@@ -6,11 +6,11 @@
 /*   By: rida-cos <rida-cos@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/19 18:29:28 by rida-cos          #+#    #+#             */
-/*   Updated: 2025/07/19 18:53:41 by rida-cos         ###   ########.fr       */
+/*   Updated: 2025/07/20 18:24:49 by rida-cos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 char	*ft_strdup(const char *s)
 {

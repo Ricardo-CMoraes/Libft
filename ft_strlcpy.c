@@ -6,11 +6,11 @@
 /*   By: rida-cos <rida-cos@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/19 13:50:40 by rida-cos          #+#    #+#             */
-/*   Updated: 2025/07/19 14:07:00 by rida-cos         ###   ########.fr       */
+/*   Updated: 2025/07/20 18:25:34 by rida-cos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 int	ft_strlcpy(char *dst, const char *src, size_t size)
 {

@@ -6,11 +6,11 @@
 /*   By: rida-cos <rida-cos@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/19 15:21:47 by rida-cos          #+#    #+#             */
-/*   Updated: 2025/07/19 15:32:14 by rida-cos         ###   ########.fr       */
+/*   Updated: 2025/07/20 18:22:41 by rida-cos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {

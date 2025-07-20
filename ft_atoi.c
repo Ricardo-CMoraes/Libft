@@ -6,11 +6,11 @@
 /*   By: rida-cos <rida-cos@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/19 16:08:06 by rida-cos          #+#    #+#             */
-/*   Updated: 2025/07/19 16:22:41 by rida-cos         ###   ########.fr       */
+/*   Updated: 2025/07/20 18:19:07 by rida-cos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 int	ft_atoi(const char *str)
 {

@@ -6,11 +6,11 @@
 /*   By: rida-cos <rida-cos@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/19 15:01:25 by rida-cos          #+#    #+#             */
-/*   Updated: 2025/07/19 15:13:39 by rida-cos         ###   ########.fr       */
+/*   Updated: 2025/07/20 18:26:50 by rida-cos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 char	*strrchr(const char *s, int c)
 {

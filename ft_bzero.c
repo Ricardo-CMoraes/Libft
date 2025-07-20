@@ -6,11 +6,11 @@
 /*   By: rida-cos <rida-cos@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/14 19:13:22 by rida-cos          #+#    #+#             */
-/*   Updated: 2025/07/19 12:55:05 by rida-cos         ###   ########.fr       */
+/*   Updated: 2025/07/20 18:19:18 by rida-cos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 void	ft_bzero(void *s, size_t n)
 {
