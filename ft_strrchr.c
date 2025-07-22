@@ -29,8 +29,3 @@ char	*strrchr(const char *s, int c)
 	}
 	return (0);
 }
-
-
-// R	I	C	A	R	D	O	NULL
-// 0	1	2	3	4	5	6	7
-// 						^
