@@ -3,30 +3,26 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rida-cos <rida-cos@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rdcm <rdcm@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/19 15:47:54 by rida-cos          #+#    #+#             */
-/*   Updated: 2025/07/20 18:26:23 by rida-cos         ###   ########.fr       */
+/*   Updated: 2025/07/23 01:38:35 by rdcm             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*strnstr(const char *big, const char *little, size_t len)
+char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
-	char	*ptr1;
-	char	*ptr2;
 	size_t	i;
 	size_t	j;
 
 	if (*little == '\0')
-		return (big);
+		return ((char *)big);
 	i = 0;
 	while (big[i] != '\0' && i < len)
 	{
 		j = 0;
-		ptr1 = big + i;
-		ptr2 = little;
 		while ((little[j] == big[i + j])
 			&& little[j] != '\0'
 			&& big[i + j] != '\0'

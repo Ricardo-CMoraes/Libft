@@ -64,7 +64,6 @@ void	get_word(char **string_arr, char *s, char c, int *index)
 
 char	**ft_split(char const *s, char c)
 {
-	int		i;
 	int		nbwords;
 	int		string_index;
 	char	**string_arr;
