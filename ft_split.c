@@ -6,7 +6,7 @@
 /*   By: rida-cos <rida-cos@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/20 15:46:42 by rida-cos          #+#    #+#             */
-/*   Updated: 2025/07/20 18:10:03 by rida-cos         ###   ########.fr       */
+/*   Updated: 2025/07/26 17:58:36 by rida-cos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,23 +74,6 @@ char	**ft_split(char const *s, char c)
 	if (!string_arr)
 		return (0);
 	get_word(string_arr, (char *)s, c, &string_index);
+	string_arr[nbwords] = NULL;
 	return (string_arr);
 }
-
-//Ricardo da Costa Moraes
-//^
-
-/*
-Function name 		ft_split
-Prototype 			char **ft_split(char const *s, char c);
-Turn in files 		-
-Parameters 			s: The string to be split.
-					c: The delimiter character.
-Return value 		The array of new strings resulting from the split.
-					NULL if the allocation fails.
-External functs. 	malloc, free
-Description 		Allocates memory (using malloc(3)) and returns an
-					array of strings obtained by splitting ’s’ using
-					the character ’c’ as a delimiter. The array must
-					end with a NULL pointer
-*/

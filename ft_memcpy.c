@@ -6,7 +6,7 @@
 /*   By: rida-cos <rida-cos@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/19 13:10:51 by rida-cos          #+#    #+#             */
-/*   Updated: 2025/07/20 18:23:21 by rida-cos         ###   ########.fr       */
+/*   Updated: 2025/07/26 16:01:44 by rida-cos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,6 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	unsigned char	*str;
 	size_t			i;
 
-	if (!dest || !src)
-		return (0);
 	destination = (unsigned char *)dest;
 	str = (unsigned char *)src;
 	i = 0;
