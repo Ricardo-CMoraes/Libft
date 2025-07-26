@@ -6,7 +6,7 @@
 /*   By: rida-cos <rida-cos@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/20 18:38:21 by rida-cos          #+#    #+#             */
-/*   Updated: 2025/07/26 18:24:34 by rida-cos         ###   ########.fr       */
+/*   Updated: 2025/07/26 18:37:54 by rida-cos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,6 @@ void	*fill_number(char *buffer, int i)
 	number[i] = '\0';
 	return (number);
 }
-
 
 char	*ft_itoa(int n)
 {
