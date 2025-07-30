@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rida-cos <rida-cos@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rdcm <rdcm@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/20 18:38:21 by rida-cos          #+#    #+#             */
-/*   Updated: 2025/07/26 18:37:54 by rida-cos         ###   ########.fr       */
+/*   Updated: 2025/07/29 23:50:20 by rdcm             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	fill_buffer(char *buffer, int *index, long n)
+static void	fill_buffer(char *buffer, int *index, long n)
 {
 	char	a;
 
@@ -29,7 +29,7 @@ void	fill_buffer(char *buffer, int *index, long n)
 	}
 }
 
-void	*fill_number(char *buffer, int i)
+static void	*fill_number(char *buffer, int i)
 {
 	char	*number;
 

@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rida-cos <rida-cos@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rdcm <rdcm@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/20 15:46:42 by rida-cos          #+#    #+#             */
-/*   Updated: 2025/07/26 17:58:36 by rida-cos         ###   ########.fr       */
+/*   Updated: 2025/07/30 00:14:14 by rdcm             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	count_words(char *s, char c)
+static int	count_words(char *s, char c)
 {
 	int	count;
 	int	in_word;
@@ -33,7 +33,7 @@ int	count_words(char *s, char c)
 	return (count);
 }
 
-void	get_word(char **string_arr, char *s, char c, int *index)
+static void	get_word(char **string_arr, char *s, char c, int *index)
 {
 	int		i;
 	int		j;
