@@ -13,11 +13,6 @@
 #ifndef LIBFT_H
 # define LIBFT_H
 # include <stdlib.h>
-<<<<<<< HEAD
-=======
-# include <limits.h>
-# include <stdint.h>
->>>>>>> 9f737888b4d6b6841ebf7f10c9a0d41e1935e561
 # include <unistd.h>
 
 int		ft_isalpha(int c);
