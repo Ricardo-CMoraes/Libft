@@ -6,7 +6,7 @@
 /*   By: rida-cos <rida-cos@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/20 15:46:42 by rida-cos          #+#    #+#             */
-/*   Updated: 2025/08/02 18:10:52 by rida-cos         ###   ########.fr       */
+/*   Updated: 2025/08/02 18:22:23 by rida-cos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ static void	free_all(char **arr, int position)
 	free(arr);
 }
 
-static int	get_word(char **string_arr, char *s, char c, int *index)
+static int	get_word(char **string_arr, const char *s, char c, int *index)
 {
 	const char	*start;
 	const char	*end;
