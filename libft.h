@@ -6,7 +6,7 @@
 /*   By: rida-cos <rida-cos@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/19 20:12:09 by rida-cos          #+#    #+#             */
-/*   Updated: 2025/07/27 14:21:47 by rida-cos         ###   ########.fr       */
+/*   Updated: 2025/08/02 15:01:51 by rida-cos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,11 +17,8 @@
 # include <stdint.h>
 # include <unistd.h>
 
-//Comment1
 int		ft_isalpha(int c);
-//Comment2
 int		ft_isdigit(int c);
-//Comment3
 int		ft_isalnum(int c);
 int		ft_isascii(int c);
 int		ft_isprint(int c);
