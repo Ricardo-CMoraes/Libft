@@ -40,5 +40,8 @@ clean:
 fclean:
 	rm -f $(NAME) $(OBJ) $(BONUS_OBJ)
 re:	fclean all
+<<<<<<< HEAD
 
 .PHONY: all clean fclean re bonus norm
+=======
+>>>>>>> 9f737888b4d6b6841ebf7f10c9a0d41e1935e561
